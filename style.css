@@ -125,11 +125,11 @@ nav a {
 
 .introduction-inner img {
     width: 450px;
-    height: 300px;
+    max-width: 450px;
 }
 
 .introduction-inner .sentence {
-    width: 400px;
+    max-width: 400px;
     text-align: center;
     
 }
@@ -139,6 +139,16 @@ nav a {
     }
     .second-inner {
         flex-direction: column-reverse;
+    }
+
+    .introduction-inner img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+    }
+    .introduction-inner .sentence {
+        width: 100%;
+        max-width: 400px;
     }
 
 }
@@ -294,7 +304,7 @@ nav a {
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    width: 100%;
+    width: 90%;
 }
 
 .slider-img {
@@ -310,7 +320,8 @@ nav a {
 
 .slider {
     margin: 0 30px;
-    max-width: 1000px;
+    max-width: 1200px;
+    width: 90%;
 }
 
 .footer p {
@@ -339,6 +350,10 @@ nav a {
     display: block;
 }
 @media (max-width: 768px) {
+     .access .container {
+        margin: 0 0;
+        width: 100%;
+     }
     .map-wrap iframe{
         width: 100%;
     }
