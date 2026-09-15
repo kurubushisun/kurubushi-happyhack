@@ -28,7 +28,13 @@ $(function($){
                 settings: {
                     slidesToShow: 2,
                 }
-            }
+            },
+            {
+                breakpoint: 392,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
         ]
     });
 });

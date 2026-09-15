@@ -89,6 +89,11 @@ nav a {
     font-size: 24px;
     font-family: "Futura-Boo";
     color: #ffffff;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: #445BD3;
 }
 
 .container {
@@ -169,6 +174,7 @@ nav a {
     font-weight: bold;
     padding: 5px 50px;
     margin-top: 20px;
+    transition: 0.5s;
 }
 
 .button:hover {
