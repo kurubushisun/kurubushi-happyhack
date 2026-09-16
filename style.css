@@ -229,6 +229,7 @@ nav a:hover {
 .course img {
     padding: 30px 0;
     height: 160px;
+    width: auto;
 }
 
 .course p {
